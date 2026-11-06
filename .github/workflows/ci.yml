@@ -1,4 +1,11 @@
-
+# --------------------------------------------------
+# CI GitHub Actions Workflow
+# This file automatically runs backend tests whenever
+# code is pushed to the main branch or a pull request
+# is created for the main branch. It installs the
+# required Python dependencies and runs pytest to
+# check whether the backend tests are passing.
+# --------------------------------------------------
 name: CI Pipeline  ## Workflow name shown in GitHub Actions UI
 
 on:
